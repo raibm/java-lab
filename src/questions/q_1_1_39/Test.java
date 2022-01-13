@@ -7,10 +7,13 @@ public class Test {
     public static void main(String[] args){
         Super s = new Sub();
         try {
-            s.m1();
+//            s.m1();
+            s.m2();
+            s.m3();
+
 //        }catch (FileNotFoundException e){ não funciona, precisa do IoException
 //            System.out.println("M");
-        } catch (IOException e) {
+        } catch (FileNotFoundException e) {
             System.out.println("M");
         } finally {
             System.out.println("N");

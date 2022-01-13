@@ -8,4 +8,20 @@ public class Sub extends Super{
     public void m1() throws IOException {
         throw new FileNotFoundException();
     }
+
+    @Override
+    public void m2() throws FileNotFoundException{
+
+    }
+
+    @Override
+    public void m3() throws ExceptionInInitializerError{
+
+    }
+
+    @Override
+    public void m4() throws ClassCastException{
+
+    }
+
 }
