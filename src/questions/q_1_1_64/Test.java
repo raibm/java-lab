@@ -1,7 +1,6 @@
 package questions.q_1_1_64;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Test {
 
